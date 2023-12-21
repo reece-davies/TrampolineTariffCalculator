@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 changeScreenValues(textView_fig, textView_tariff, "1b", 0.1);
                 break;
             case "Back in - full out":
-                changeScreenValues(textView_fig, textView_tariff, "802/", 0.1);
+                changeScreenValues(textView_fig, textView_tariff, "802/", 1.4);
                 break;
             case "Back somersault (pike)":
                 changeScreenValues(textView_fig, textView_tariff, "4-<", 0.6);
@@ -230,10 +230,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 changeScreenValues(textView_fig, textView_tariff, "51o", 0.7);
                 break;
             case "Barani in - back out (pike)":
-                changeScreenValues(textView_fig, textView_tariff, "810<", 1.1);
+                changeScreenValues(textView_fig, textView_tariff, "810<", 1.3);
                 break;
             case "Barani in - back out (straight)":
-                changeScreenValues(textView_fig, textView_tariff, "810/", 1.1);
+                changeScreenValues(textView_fig, textView_tariff, "810/", 1.3);
                 break;
             case "Barani in - back out (tuck)":
                 changeScreenValues(textView_fig, textView_tariff, "810o", 1.1);
