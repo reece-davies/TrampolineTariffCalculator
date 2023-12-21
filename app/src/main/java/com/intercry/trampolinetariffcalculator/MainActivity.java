@@ -406,6 +406,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case "Tuck jump":
                 changeScreenValues(textView_fig, textView_tariff, "o", 0.0);
                 break;
+            case "To feet (from F/B)":
+                changeScreenValues(textView_fig, textView_tariff, "o", 0.1);
+                break;
+            case "To feet (from S)":
+                changeScreenValues(textView_fig, textView_tariff, "o", 0.0);
+                break;
         }
     }
 
